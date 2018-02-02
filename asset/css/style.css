@@ -59,7 +59,6 @@ h6 {
   src: url("../fonts/Roboto-Light.ttf"); }
 
 body {
-  width: 1920px;
   margin: 0px;
   padding: 0px;
   font-family: Roboto-light; }
@@ -98,7 +97,6 @@ body {
 
 header {
   background-image: url("../images/banner.jpg");
-  height: 875px;
   background-repeat: no-repeat; }
   header .container-head {
     margin-top: 41px; }
@@ -146,7 +144,8 @@ header {
     text-align: center; }
   header .button-head {
     text-align: center;
-    margin-top: 31px; }
+    margin-top: 31px;
+    margin-bottom: 233px; }
 
 .til {
   -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
@@ -189,10 +188,7 @@ header {
     font-size: 48px;
     font-family: Roboto-light;
     margin-top: 100px; }
-    .daily .daily-head .ti-write {
-      font-size: 36px;
-      margin-right: 18px; }
-    .daily .daily-head .ti-calendar {
+    .daily .daily-head .ti-write, .daily .daily-head .ti-calendar {
       font-size: 36px;
       margin-right: 18px; }
   .daily .content-1 {
@@ -314,10 +310,7 @@ header {
         color: #8BC34A; }
     .customer .customer-content .customer-detail-2 {
       margin-top: 17px; }
-      .customer .customer-content .customer-detail-2 .ti-cup {
-        font-size: 18px;
-        color: #8BC34A; }
-      .customer .customer-content .customer-detail-2 .ti-stats-up {
+      .customer .customer-content .customer-detail-2 .ti-cup, .customer .customer-content .customer-detail-2 .ti-stats-up {
         font-size: 18px;
         color: #8BC34A; }
   .customer .button-customer {
@@ -325,7 +318,6 @@ header {
     margin-top: 30px; }
 
 .rectangle4 {
-  height: 544px;
   background-image: url(../images/Rectangle_3.jpg);
   background-color: rgba(40, 50, 56, 0.9); }
   .rectangle4 .head-rec {
@@ -383,7 +375,8 @@ header {
   .rectangle4 .ti-quote-right {
     font-size: 72px;
     color: #FFFFFF;
-    margin-top: -25px; }
+    margin-top: -25px;
+    margin-bottom: 24px; }
 
 footer {
   margin-left: -2px;
@@ -467,25 +460,20 @@ h6 {
 
 /* Font icon css */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px; }
-  header {
-    height: 670px; }
-    header .banner-title {
-      margin-top: 100px; }
-    header .icon {
-      font-size: 30px;
-      margin-top: 40px; }
-    header .text {
-      font-size: 30px;
-      line-height: 32px; }
-    header .head-content {
-      font-size: 14px;
-      margin-top: 40px; }
-    header .button-head {
-      margin-top: 45px; }
+  header .banner-title {
+    margin-top: 100px; }
+  header .icon {
+    font-size: 30px;
+    margin-top: 40px; }
+  header .text {
+    font-size: 30px;
+    line-height: 32px; }
+  header .head-content {
+    font-size: 14px;
+    margin-top: 40px; }
+  header .button-head {
+    margin-top: 45px;
+    margin-bottom: 100px; }
   .til .til-head {
     margin-top: 25px;
     font-size: 36px; }
@@ -596,36 +584,31 @@ h6 {
     display: block; }
   .pc-view {
     display: none; }
-  body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px; }
   .start-now {
     height: 45px;
     width: 144px;
     font-size: 14px; }
-  header {
-    height: 425.2px; }
-    header .container-head {
-      margin-top: 19px; }
-      header .container-head .about-us {
-        margin-right: 23px; }
-    header .banner-title {
-      height: 43px;
-      margin-top: 30px; }
-      header .banner-title .hapo {
-        width: 144px; }
-    header .icon {
-      font-size: 24px;
-      margin-top: 40px; }
-    header .text {
-      font-size: 24px;
-      line-height: 32px; }
-    header .head-content {
-      font-size: 14px;
-      margin-top: 15px; }
-    header .button-head {
-      margin-top: 30px; }
+  header .container-head {
+    margin-top: 19px; }
+    header .container-head .about-us {
+      margin-right: 23px; }
+  header .banner-title {
+    height: 43px;
+    margin-top: 30px; }
+    header .banner-title .hapo {
+      width: 144px; }
+  header .icon {
+    font-size: 24px;
+    margin-top: 40px; }
+  header .text {
+    font-size: 24px;
+    line-height: 32px; }
+  header .head-content {
+    font-size: 14px;
+    margin-top: 15px; }
+  header .button-head {
+    margin-top: 30px;
+    margin-bottom: 50px; }
   .til .til-head {
     text-align: center;
     margin-top: 50px;
@@ -727,31 +710,29 @@ h6 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 35px; }
-  .rectangle4 {
-    height: 544px; }
-    .rectangle4 .head-rec {
-      font-size: 36px;
-      height: 48px; }
-    .rectangle4 .owl-carousel .owl-stage-outer {
-      height: 155px; }
-    .rectangle4 .our-customers {
-      height: 127px;
-      margin-top: 24px; }
-      .rectangle4 .our-customers .cus-name {
-        line-height: 19px; }
-    .rectangle4 .ti-quote-left {
-      font-size: 64px;
-      margin-top: 50px;
-      padding-left: 0px; }
-    .rectangle4 .tes-text {
-      font-size: 17px;
-      padding-left: 0px;
-      margin-top: 110px; }
-    .rectangle4 .ti-quote-right {
-      font-size: 64px;
-      margin-top: -25px;
-      text-align: center;
-      padding-left: 0px; }
+  .rectangle4 .head-rec {
+    font-size: 36px;
+    height: 48px; }
+  .rectangle4 .owl-carousel .owl-stage-outer {
+    height: 155px; }
+  .rectangle4 .our-customers {
+    height: 127px;
+    margin-top: 24px; }
+    .rectangle4 .our-customers .cus-name {
+      line-height: 19px; }
+  .rectangle4 .ti-quote-left {
+    font-size: 64px;
+    margin-top: 50px;
+    padding-left: 0px; }
+  .rectangle4 .tes-text {
+    font-size: 17px;
+    padding-left: 0px;
+    margin-top: 110px; }
+  .rectangle4 .ti-quote-right {
+    font-size: 64px;
+    margin-top: -25px;
+    text-align: center;
+    padding-left: 0px; }
   footer .row {
     margin-top: 54px; }
     footer .row .col-3 {
@@ -773,44 +754,39 @@ h6 {
     display: block; }
   .pc-view {
     display: none; }
-  body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px; }
   .start-now {
     height: 40px;
     width: 144px;
     font-size: 14px; }
-  header {
-    height: 300px; }
-    header .container-head {
-      margin-top: 15px; }
-      header .container-head .sign-in {
-        margin-right: 15px;
-        height: 30px;
-        width: 70px;
-        font-size: 9px; }
-      header .container-head .about-us {
-        margin-right: 23px;
-        font-size: 9px; }
-    header .banner-title {
-      height: 29px;
-      margin-top: 8px; }
-      header .banner-title .hapo {
-        width: 96px; }
-    header .icon {
-      font-size: 18px;
-      margin-top: 20px; }
-    header .text {
-      font-size: 18px;
-      line-height: 24px; }
-    header .head-content {
-      font-size: 9px;
-      margin-top: 15px;
-      line-height: 11px; }
-    header .button-head {
-      margin-top: 15px;
-      height: 40px; }
+  header .container-head {
+    margin-top: 15px; }
+    header .container-head .sign-in {
+      margin-right: 15px;
+      height: 30px;
+      width: 70px;
+      font-size: 9px; }
+    header .container-head .about-us {
+      margin-right: 23px;
+      font-size: 9px; }
+  header .banner-title {
+    height: 29px;
+    margin-top: 8px; }
+    header .banner-title .hapo {
+      width: 96px; }
+  header .icon {
+    font-size: 18px;
+    margin-top: 20px; }
+  header .text {
+    font-size: 18px;
+    line-height: 24px; }
+  header .head-content {
+    font-size: 9px;
+    margin-top: 15px;
+    line-height: 11px; }
+  header .button-head {
+    margin-top: 15px;
+    height: 40px;
+    margin-bottom: 27px; }
   .til .til-head {
     text-align: center;
     margin-top: 30px;
@@ -901,31 +877,29 @@ h6 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px; }
-  .rectangle4 {
-    height: 525px; }
-    .rectangle4 .head-rec {
-      font-size: 24px;
-      margin-top: 25px; }
-    .rectangle4 .owl-carousel .owl-stage-outer {
-      height: 154px; }
-    .rectangle4 .our-customers {
-      margin-top: 0px; }
-      .rectangle4 .our-customers .cus-name {
-        line-height: 19px; }
-    .rectangle4 .ti-quote-left {
-      font-size: 48px;
-      margin-top: 83px;
-      padding-left: 0px; }
-    .rectangle4 .tes-text {
-      font-size: 14px;
-      line-height: 25px;
-      padding: 0px;
-      margin-top: 0px; }
-    .rectangle4 .ti-quote-right {
-      font-size: 48px;
-      margin-top: 5px;
-      float: right;
-      right: 10px; }
+  .rectangle4 .head-rec {
+    font-size: 24px;
+    margin-top: 25px; }
+  .rectangle4 .owl-carousel .owl-stage-outer {
+    height: 154px; }
+  .rectangle4 .our-customers {
+    margin-top: 0px; }
+    .rectangle4 .our-customers .cus-name {
+      line-height: 19px; }
+  .rectangle4 .ti-quote-left {
+    font-size: 48px;
+    margin-top: 83px;
+    padding-left: 0px; }
+  .rectangle4 .tes-text {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px;
+    margin-top: 0px; }
+  .rectangle4 .ti-quote-right {
+    font-size: 48px;
+    margin-top: 5px;
+    float: right;
+    right: 10px; }
   footer .row {
     margin-top: 24px; }
     footer .row .col-1 {
