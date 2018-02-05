@@ -11,19 +11,8 @@ ul, ol {
   ul li, ol li {
     list-style-type: none; }
 
-input[type="text"], input[type="email"], input[type="password"], textarea {
-  width: 100%;
-  outline: none; }
-  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
-    outline: none; }
-
 button:focus {
   outline: none; }
-
-select {
-  cursor: pointer; }
-  select:focus {
-    outline: none; }
 
 h1,
 h2,
@@ -34,7 +23,7 @@ h6 {
   margin: 0; }
 
 /* Extend */
-.start-now, .rectangle4 .our-customers .avata {
+.start-now, .our-cus .our-customers .avata {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -42,9 +31,10 @@ h6 {
   -o-transition: all 0.3s ease-out; }
 
 /* Font icon css */
-@font-face {
-  font-family: Enso;
-  src: url("../fonts/enso.ttf"); }
+.til .til-head, .daily .daily-head, .member .member-head, .customer .customer-head, .our-cus .head-rec {
+  font-size: 48px;
+  font-family: Roboto-light;
+  line-height: 63px; }
 
 @font-face {
   font-family: Roboto-regular;
@@ -84,9 +74,7 @@ body {
   color: #FFFFFF;
   font-family: Roboto-regular;
   font-size: 18px;
-  font-weight: 500;
   letter-spacing: 1px;
-  line-height: 24px;
   cursor: pointer; }
   .start-now:hover {
     background: -webkit-linear-gradient(112.12deg, #B4EC51 0%, #429321 100%);
@@ -152,11 +140,7 @@ header {
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   background-color: #FFFFFF; }
   .til .til-head {
-    font-size: 48px;
-    color: #444444;
-    font-family: Roboto-light;
-    margin-top: 100px;
-    line-height: 63px; }
+    margin-top: 100px; }
     .til .til-head .ti-bookmark-alt {
       font-size: 36px;
       margin-right: 19px; }
@@ -184,9 +168,6 @@ header {
   -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
   .daily .daily-head {
-    color: #444444;
-    font-size: 48px;
-    font-family: Roboto-light;
     margin-top: 100px; }
     .daily .daily-head .ti-write, .daily .daily-head .ti-calendar {
       font-size: 36px;
@@ -239,9 +220,6 @@ header {
   -webkit-box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1); }
   .member .member-head {
-    color: #444444;
-    font-size: 48px;
-    font-family: Roboto-light;
     margin-top: 100px; }
     .member .member-head .ti-user {
       font-size: 36px;
@@ -281,9 +259,6 @@ header {
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
   background-color: #FFFFFF; }
   .customer .customer-head {
-    font-size: 48px;
-    color: #444444;
-    font-family: Roboto-light;
     margin-top: 100px; }
     .customer .customer-head .ti-face-smile {
       font-size: 36px;
@@ -317,62 +292,55 @@ header {
     margin-bottom: 100px;
     margin-top: 30px; }
 
-.rectangle4 {
+.our-cus {
   background-image: url(../images/Rectangle_3.jpg);
   background-color: rgba(40, 50, 56, 0.9); }
-  .rectangle4 .head-rec {
+  .our-cus .head-rec {
     color: #FFFFFF;
-    font-family: Roboto-light;
-    font-size: 48px;
-    height: 63px;
     margin-top: 50px;
     text-align: center; }
-  .rectangle4 .owl-carousel .owl-stage-outer {
+  .our-cus .owl-carousel .owl-stage-outer {
     height: 155px; }
-  .rectangle4 .owl-carousel .owl-item img {
-    width: 53% !important;
+  .our-cus .owl-carousel .owl-item img {
+    width: 53%;
     padding-top: 10px;
     margin: auto; }
-  .rectangle4 .our-customers {
+  .our-cus .our-customers {
     height: 127px;
     margin-top: 39px;
     font-family: Roboto-regular; }
-    .rectangle4 .our-customers .cus-name {
+    .our-cus .our-customers .cus-name {
       color: #FFFFFF;
       font-size: 13px;
-      font-weight: 300;
-      line-height: 14px;
       text-align: center;
       margin-top: 16px;
       display: block; }
-    .rectangle4 .our-customers .cus-job {
+    .our-cus .our-customers .cus-job {
       display: block;
       color: #FFFFFF;
-      font-weight: 300;
-      line-height: 14px;
       font-size: 10px;
       text-align: center;
       padding-top: 2px; }
-    .rectangle4 .our-customers .avata:hover {
+    .our-cus .our-customers .avata:hover {
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
       -ms-transform: scale(1.2);
       -o-transform: scale(1.2);
       transform: scale(1.2); }
-    .rectangle4 .our-customers .avata:hover + .cus-name {
+    .our-cus .our-customers .avata:hover + .cus-name {
       margin-top: 25px; }
-  .rectangle4 .ti-quote-left {
+  .our-cus .ti-quote-left {
     font-size: 72px;
     color: #FFFFFF;
     margin-top: 39px; }
-  .rectangle4 .tes-text {
+  .our-cus .tes-text {
     color: #FFFFFF;
     font-family: Roboto-light;
     font-size: 18px;
     margin-top: 104px;
     line-height: 30px;
     text-align: justify; }
-  .rectangle4 .ti-quote-right {
+  .our-cus .ti-quote-right {
     font-size: 72px;
     color: #FFFFFF;
     margin-top: -25px;
@@ -428,19 +396,8 @@ ul, ol {
   ul li, ol li {
     list-style-type: none; }
 
-input[type="text"], input[type="email"], input[type="password"], textarea {
-  width: 100%;
-  outline: none; }
-  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
-    outline: none; }
-
 button:focus {
   outline: none; }
-
-select {
-  cursor: pointer; }
-  select:focus {
-    outline: none; }
 
 h1,
 h2,
@@ -451,7 +408,7 @@ h6 {
   margin: 0; }
 
 /* Extend */
-.start-now, .rectangle4 .our-customers .avata {
+.start-now, .our-cus .our-customers .avata {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -459,6 +416,11 @@ h6 {
   -o-transition: all 0.3s ease-out; }
 
 /* Font icon css */
+.til .til-head, .daily .daily-head, .member .member-head, .customer .customer-head, .our-cus .head-rec {
+  font-size: 48px;
+  font-family: Roboto-light;
+  line-height: 63px; }
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .banner-title {
     margin-top: 100px; }
@@ -572,12 +534,6 @@ h6 {
           margin-left: 18px; }
     footer .row .copyright {
       margin-top: -70px; } }
-
-@media screen and (width: 768px) {
-  header {
-    background-image: url("../images/768px/Rectangle.jpg"); }
-  .rectangle4 {
-    background-image: url(../images/768px/Rectangle_3.jpg); } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .mb-view {
@@ -710,25 +666,25 @@ h6 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 35px; }
-  .rectangle4 .head-rec {
+  .our-cus .head-rec {
     font-size: 36px;
     height: 48px; }
-  .rectangle4 .owl-carousel .owl-stage-outer {
+  .our-cus .owl-carousel .owl-stage-outer {
     height: 155px; }
-  .rectangle4 .our-customers {
+  .our-cus .our-customers {
     height: 127px;
     margin-top: 24px; }
-    .rectangle4 .our-customers .cus-name {
+    .our-cus .our-customers .cus-name {
       line-height: 19px; }
-  .rectangle4 .ti-quote-left {
+  .our-cus .ti-quote-left {
     font-size: 64px;
     margin-top: 50px;
     padding-left: 0px; }
-  .rectangle4 .tes-text {
+  .our-cus .tes-text {
     font-size: 17px;
     padding-left: 0px;
     margin-top: 110px; }
-  .rectangle4 .ti-quote-right {
+  .our-cus .ti-quote-right {
     font-size: 64px;
     margin-top: -25px;
     text-align: center;
@@ -877,25 +833,25 @@ h6 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px; }
-  .rectangle4 .head-rec {
+  .our-cus .head-rec {
     font-size: 24px;
     margin-top: 25px; }
-  .rectangle4 .owl-carousel .owl-stage-outer {
+  .our-cus .owl-carousel .owl-stage-outer {
     height: 154px; }
-  .rectangle4 .our-customers {
+  .our-cus .our-customers {
     margin-top: 0px; }
-    .rectangle4 .our-customers .cus-name {
+    .our-cus .our-customers .cus-name {
       line-height: 19px; }
-  .rectangle4 .ti-quote-left {
+  .our-cus .ti-quote-left {
     font-size: 48px;
     margin-top: 83px;
     padding-left: 0px; }
-  .rectangle4 .tes-text {
+  .our-cus .tes-text {
     font-size: 14px;
     line-height: 25px;
     padding: 0px;
     margin-top: 0px; }
-  .rectangle4 .ti-quote-right {
+  .our-cus .ti-quote-right {
     font-size: 48px;
     margin-top: 5px;
     float: right;
@@ -924,26 +880,8 @@ h6 {
   .rectangle-3 .our-rectangle3 .rec-group {
     padding-right: 75px; } }
 
-@media screen and (width: 480px) {
-  header {
-    background-image: url("../images/488px/Rectangle.jpg"); }
-  .rectangle4 {
-    background-image: url(../images/488px/Rectangle_3.jpg); }
-  footer .row .col-2 p {
-    font-size: 10px;
-    line-height: 18px; }
-  footer .row .col-2 a {
-    font-size: 9px; }
-  footer .row .col-3 {
-    margin-top: 43px; }
-    footer .row .col-3 ul li a {
-      font-size: 13px; }
-  footer .row .copyright {
-    font-size: 9px;
-    line-height: 13px; } }
-
 @media screen and (max-width: 479px) {
-  .rectangle4 .owl-carousel .owl-item img {
+  .our-cus .owl-carousel .owl-item img {
     width: 22% !important; }
   footer .row .col-2 p {
     font-size: 10px;

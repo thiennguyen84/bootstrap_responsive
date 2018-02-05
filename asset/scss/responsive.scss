@@ -1,6 +1,6 @@
 @import 'variables';
 
-@media  screen and (min-width: 992px) and (max-width: 1199px){
+@media screen and (min-width: 992px) and (max-width: 1199px){
 
 header{
 	.banner-title{
@@ -174,17 +174,6 @@ footer{
 	}
 }
 // end media 
-}
-
-@media screen and (width: 768px){
-header{
-	background-image: url('../images/768px/Rectangle.jpg');
-}
-
-.rectangle4{
-background-image: url(../images/768px/Rectangle_3.jpg);
-}
-//end media
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -383,7 +372,7 @@ header{
 	}
 }
 
-.rectangle4 {
+.our-cus {
   .head-rec{  
   font-size: 36px;  
   height: 48px;
@@ -634,7 +623,7 @@ header{
 	}
 }
 
-.rectangle4 {
+.our-cus {
   .head-rec{  
   font-size: 24px;  
   margin-top: 25px;
@@ -714,46 +703,8 @@ footer{
 	//end media
 }
 
-@media screen and (width:480px){
-header{
-	background-image: url('../images/488px/Rectangle.jpg');
-}
-.rectangle4{
-	background-image: url(../images/488px/Rectangle_3.jpg);
-}
-
-footer{
-	.row{
-		.col-2{
-			p{
-				font-size: 10px;
-				line-height: 18px;
-			}
-			a{
-				font-size: 9px;
-			}
-		}
-		.col-3{
-			margin-top: 43px;
-			ul{
-				li{
-					a{
-						font-size: 13px; 
-					}
-				}
-			}
-		}
-		.copyright{
-			font-size: 9px;
-			line-height: 13px;
-		}
-	}
-}
-//end media
-}
-
 @media screen and (max-width:479px){
-.rectangle4 {
+.our-cus {
 	.owl-carousel{
 		.owl-item{
   		img{

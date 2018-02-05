@@ -1,11 +1,6 @@
 @import 'variables';
 
 @font-face {
-font-family: Enso;
-src:url("../fonts/enso.ttf");
-}
-
-@font-face {
 font-family: Roboto-regular;
 src:url("../fonts/Roboto-Regular.ttf");
 }
@@ -44,9 +39,7 @@ body{
   color: $white;
   font-family: Roboto-regular;
   font-size: 18px;
-  font-weight: 500;
   letter-spacing: 1px;
-  line-height: 24px;
   cursor: pointer;
   @extend %transition;
   &:hover{
@@ -121,11 +114,8 @@ header{
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 	background-color: $white;
 	.til-head{
-		font-size: 48px;
-		color: #444444;
-		font-family: Roboto-light;
+		@extend %font-head;
 		margin-top: 100px;
-		line-height: 63px;
 		.ti-bookmark-alt{
 			font-size: 36px;
 			margin-right: 19px;
@@ -160,9 +150,7 @@ header{
 	background-color: $white;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 	.daily-head{
-		color: #444444;
-		font-size: 48px;
-		font-family: Roboto-light;
+		@extend %font-head;
 		margin-top: 100px;
 		.ti-write,.ti-calendar{
 			font-size: 36px;
@@ -224,9 +212,7 @@ header{
 	background-color: $white;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
  	.member-head{
-		color: #444444;
-		font-size: 48px;
-		font-family: Roboto-light;
+		@extend %font-head;
 		margin-top: 100px;
 		.ti-user{
 			font-size: 36px;
@@ -277,9 +263,7 @@ header{
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 	background-color: $white;
 	.customer-head{
-		font-size: 48px;
-		color: #444444;
-		font-family: Roboto-light;
+		@extend %font-head;
 		margin-top: 100px;
 		.ti-face-smile{
 			font-size: 36px;
@@ -325,14 +309,12 @@ header{
 	}
 }
 
-.rectangle4 {
+.our-cus {
   background-image: url(../images/Rectangle_3.jpg);
   background-color: rgba(40,50,56,0.9);
   .head-rec{
   color: $white; 
-  font-family: Roboto-light;  
-  font-size: 48px;  
-  height: 63px;
+  @extend %font-head;
   margin-top: 50px;
   text-align: center;
 	}
@@ -342,7 +324,7 @@ header{
 		}
 		.owl-item{
   		img{
-  			width: 53% !important;
+  			width: 53%;
   			padding-top: 10px;
   			margin: auto;
 			}
@@ -355,8 +337,6 @@ header{
   	.cus-name{
   		color: $white; 
   		font-size: 13px;  
-  		font-weight: 300; 
-  		line-height: 14px;
   		text-align: center;
   		margin-top: 16px;
   		display: block;
@@ -364,8 +344,6 @@ header{
 		.cus-job{
   		display: block;
   		color: $white;
-  		font-weight: 300;
-  		line-height: 14px;
   		font-size: 10px;
   		text-align: center;
   		padding-top: 2px;
